@@ -1,14 +1,18 @@
 # MNIST Classification using K-Nearest Neighbors (KNN)
 
-This project performs digit classification on the MNIST dataset using the **K-Nearest Neighbors (KNN)** algorithm. 
+This project performs Fashion classification on the MNIST dataset using the **K-Nearest Neighbors (KNN)** algorithm. 
 
 To enhance efficiency and accuracy, **Principal Component Analysis (PCA)** is applied for dimensionality reduction before the KNN algorithm is used. All the operations including PCA and KNN have been implemented **from scratch** — no inbuilt machine learning libraries are used.
 
+## Input
+- All the images are flattened and then stored in the .csv file
+- There are two files one is train.csv and another is test.csv
+  
 ---
 
 ## 📌 Features
 
-- Handwritten digit classification on MNIST dataset
+- Handwritten fashion classification on MNIST dataset
 - PCA implementation for dimensionality reduction
 - KNN implementation from scratch (no libraries like scikit-learn used)
 - Evaluation of model performance for different values of `k`
@@ -20,7 +24,7 @@ To enhance efficiency and accuracy, **Principal Component Analysis (PCA)** is ap
 
 Final classification accuracy plot:
 
-![Final Result](images/final_result.png)
+![Final Result](download.png)
 
 ---
 
@@ -31,11 +35,3 @@ Final classification accuracy plot:
 - Matplotlib (for plotting)
 
 ---
-
-## 📂 Project Structure
-
-```bash
-├── MNIST_KNN.ipynb           # Main notebook with code
-├── images/
-│   └── final_result.png      # Output graph or result image
-└── README.md                 # Project documentation
